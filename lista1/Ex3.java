@@ -7,9 +7,11 @@ public class Ex3
     {
         // declara variaveis
         int num, soma;
-        Scanner input = new Scanner(System.in);
+        Scanner input;
 
-        soma = 0;  
+        // inicializa variaveis     
+        soma = 0;
+        input = new Scanner(System.in);
 
         // le o primeiro numero
         System.out.println("digite uma serie de numeros que acaba com -1");   

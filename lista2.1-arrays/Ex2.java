@@ -9,9 +9,11 @@ public class Ex2
         int numeros[][] = new int[3][3];
         int vetorSomas[] = new int[3];
         int soma, i, j;
-        Scanner input = new Scanner(System.in);
+        Scanner input;
 
+        // inicializa variaveis
         soma = 0;    
+        input = new Scanner(System.in);
 
         // le numeros e salva no array
         System.out.println("digite uma matriz 3x3 de inteiros");     

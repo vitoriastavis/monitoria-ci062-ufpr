@@ -8,10 +8,12 @@ public class Ex8
         // declara variaveis
         int count;              // contador de pessoas acida do peso
         double peso, altura, imc;
-        Scanner input = new Scanner(System.in);
+        Scanner input;
 
+        // inicializa variaveis
         count = 0;
         imc = 0;
+        input = new Scanner(System.in);
 
         // le peso e altura
         System.out.println("digite o peso em kg");   

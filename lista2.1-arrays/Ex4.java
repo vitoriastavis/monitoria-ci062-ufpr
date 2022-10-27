@@ -12,13 +12,14 @@ public class Ex4
             int numeros[] = new int[7];  
             int i, menor, maior;
            
+            // inicializa variaveis
+            menor = maior = numeros[0];
+
             // le numeros e salva no array
             System.out.println("digite 7 numeros");   
             for (i = 0; i < 7; i++)                
                 numeros[i] = input.nextInt();                                
-            
-            menor = maior = numeros[0];
-
+    
             // itera pelo vetor e compara os valores
             for (i = 0; i < 7; i++)      
             {  

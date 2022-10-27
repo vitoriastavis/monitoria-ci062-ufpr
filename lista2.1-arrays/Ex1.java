@@ -11,10 +11,12 @@ public class Ex1
     {
         // declara variaveis
         int numeros[], qtdImpares, somaPares;
-        Scanner input = new Scanner(System.in);
+        Scanner input;
 
+        // inicializa variaveis
         numeros = new int[10];
         qtdImpares = somaPares = 0;
+        input = new Scanner(System.in);
 
         // le numeros e salva no array
         System.out.println("digite 10 numeros");       

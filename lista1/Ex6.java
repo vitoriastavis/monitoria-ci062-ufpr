@@ -17,10 +17,12 @@ public class Ex6
         // declara variaveis
         int count;
         double peso, altura, imc;
-        Scanner input = new Scanner(System.in);
+        Scanner input;
 
+        // inicializa variaveis  
         count = 0;
         imc = 0;
+        input = new Scanner(System.in);
 
         // le peso e altura
         System.out.println("digite o peso em kg");   
