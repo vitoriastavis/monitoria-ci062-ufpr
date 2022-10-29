@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex2
 {
-    // le matriz 3x3 e retorna soma das colunas
+    // le matriz 3x3 e printa soma das colunas
     public static void main(String args[])
     {
         // declara variaveis        

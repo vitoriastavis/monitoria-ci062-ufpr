@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Ex1
 {
-    // le 10 numeros e retorna:
-    // numeros pares
-    // soma dos numeros pares
-    // numeros numeros
-    // quantidade de numeros numeros
+    /* le 10 numeros e printa:
+       numeros pares
+       soma dos numeros pares
+       numeros numeros
+       quantidade de numeros numeros */
     public static void main(String args[])
     {
         // declara variaveis

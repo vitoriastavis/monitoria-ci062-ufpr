@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Ex5
 {
     /* le x e aplica em f(x):
-    // 0 <= x < 5, f(x) = x
-    // 5 <= x <10; f(x) = 2x + 1
-    // x >= 10; f(x) = x - 3 */
+       0 <= x < 5, f(x) = x
+       5 <= x <10; f(x) = 2x + 1
+       x >= 10; f(x) = x - 3 */
     public static void main(String args[])
     {
         // declara variaveis

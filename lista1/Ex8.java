@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Ex8
 {
-    // le peso e altura de pessoas ate digitar -1 e retorna quantas estao acima do peso
+    /* le peso e altura de pessoas ate digitar -1
+        printa a quantas estao acima do peso */
     public static void main(String args[])
     {
         // declara variaveis

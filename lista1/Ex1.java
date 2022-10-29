@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Ex1
 {    
+    // le um numero e printa se eh positivo ou negativo
     public static void main (String args[])
     {
         // declara variaveis

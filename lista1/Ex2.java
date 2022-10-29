@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex2
 {
-    // le um numero e retorna se ele eh par ou impar
+    // le um numero e printa se ele eh par ou impar
     public static void main(String args[])
     {
         // declara variaveis

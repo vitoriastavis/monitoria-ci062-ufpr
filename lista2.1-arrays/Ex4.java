@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex4
 {
-    // le 7 numeros e retorna o maior e o menor 
+    // le 7 numeros e printa o maior e o menor 
     public static void main(String args[])
     {
         Scanner input = new Scanner(System.in);

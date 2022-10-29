@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex3
 {
-    // le de numeros ate digitar -1 e retorna a soma deles
+    // le de numeros ate digitar -1 e printa a soma deles
     public static void main(String args[])
     {
         // declara variaveis

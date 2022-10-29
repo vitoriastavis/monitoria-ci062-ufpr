@@ -1,6 +1,6 @@
 public class Ex4
 {
-    // calcula e imprima a soma dos 10 primeiros multiplos de 3
+    // calcula e printa a soma dos 10 primeiros multiplos de 3
     public static void main(String args[])
     {       
         // declara variaveis

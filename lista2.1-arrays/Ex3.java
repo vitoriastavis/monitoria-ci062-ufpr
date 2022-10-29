@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Ex3
 {
+    // retorna true se a letra for vogal, false se nao
     public static boolean ehVogal(char c)
     {
         String vogais = "aeiou";
@@ -16,8 +17,9 @@ public class Ex3
         return false;
 
     }
-    // le uma palavra, diz quantas vogais tem
-    // le um caractere e substitui as vogais pelo caractere
+    /* le uma palavra, printa quantas vogais tem
+       le um caractere e substitui as vogais pelo caractere
+       printa a palavra nova                                */
     public static void main(String args[])
     {
         Scanner input = new Scanner(System.in);
