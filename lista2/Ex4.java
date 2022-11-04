@@ -35,9 +35,7 @@ public class Ex4
         finally
         {
             input.close();
-        }
-                               
-        input.close();
+        }                       
     }    
 }
 

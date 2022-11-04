@@ -1,52 +1,81 @@
 import java.util.Scanner;
 
 public class Ex1
-{
-    // imprime a frase invertida e substituida
-    public static String substituieInverte(String frase)
-    {      
-        frase = frase.replace("A", "*");
-        frase = frase.replace("a", "*");
+{     
+    static final int nProfs=1;
 
-        for(int i = frase.length() - 1; i >= 0; i--)
-        {
-            System.out.print(frase.charAt(i));
-        }
-        System.out.println(" ");
+    static FuncionarioUFPR carregaFuncionario(Scanner input)
+    {        
+        FuncionarioUFPR func = new FuncionarioUFPR();
 
-        return frase;
+        System.out.println("    digite dados do funcionario");
+
+        System.out.print("digite o nome: ");
+        func.nome = input.nextLine();
+
+        System.out.print("digite o cargo: ");
+        func.cargo = input.nextLine();
+
+        System.out.print("digite a matricula: ");
+        func.matricula = input.nextInt();
+
+        System.out.print("digite a data de nascimento no formato dd/mm/aaaa: ");           
+        Data dataNasc = new Data();   
+        dataNasc.data = input.nextLine();       
+        dataNasc.parserCompleto();
+        func.dataNascimento = dataNasc;
+
+        System.out.println("");
+
+        return func;
     }
 
+    static FolhaDePagamentoUFPR carregaFolhaPgto(Scanner input)
+    {       
+        FolhaDePagamentoUFPR folhaPgto = new FolhaDePagamentoUFPR();
+       
+        folhaPgto.func = carregaFuncionario(input);     
 
-    // le duas frases e printa as duas invertidas e substituindo A por * 
+        System.out.print("digite o mes e ano de pagamento no formado mm/aaaa: ");
+        Data dataPgto = new Data();
+        dataPgto.data = input.nextLine();
+        dataPgto.parserIncompleto();
+        folhaPgto.dataPagamento = dataPgto;
+
+        System.out.print("digite salario do mes: ");
+        folhaPgto.salarioMes = input.nextDouble();
+
+        System.out.println("");
+
+        return folhaPgto;
+    }
+
     public static void main(String args[])
     {
         Scanner input = new Scanner(System.in);
         try
         {
-            // declara variaveis        
-            String frase1, frase2;        
-       
-            // le primeira frase           
-            System.out.print("digite uma frase: ");             
-            frase1 = input.nextLine();  
+            FolhaDePagamentoUFPR folhas[];
 
-            // le segunda frase           
-            System.out.print("digite mais uma frase: ");             
-            frase2 = input.nextLine();  
+            folhas = new FolhaDePagamentoUFPR[3];
 
-            System.out.println(" ");
-           
-            // substitui 'A' e 'a' por '*' e imprime invertida
-            substituieInverte(frase1);      
-            substituieInverte(frase2);
+            // carrega folhas de pagamento
+            for (int i = 0; i < nProfs; i++)
+            {
+                folhas[i] = carregaFolhaPgto(input);
+            }
+
+            // imprime folhas de pagamento
+            for (int i = 0; i < nProfs; i++)
+            {
+                folhas[i].imprimir();
+            }
         }
         finally
         {
             input.close();
-        }
-                               
-        input.close();
+        }                           
+       
     }    
 }
 
