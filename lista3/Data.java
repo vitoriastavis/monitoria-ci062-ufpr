@@ -43,8 +43,8 @@ public class Data
     // separa a string da data em inteiros para dia mes e ano
     void parserCompleto()
     {    
-        String array[] = new String[3];            // array auxiliar
-        array = data.split("/");            // separacao por /
+        String array[];             // array auxiliar
+        array = data.split("/");                    // separacao por /
 
         // converte para int e atribui
         dia = Integer.parseInt(array[0]);   
@@ -55,8 +55,8 @@ public class Data
     // separa a string da data em inteiros para mes e ano
     void parserIncompleto()
     {    
-        String array[] = new String[2];            // array auxiliar
-        array = data.split("/");            // separacao por /
+        String array[] = new String[2];             // array auxiliar
+        array = data.split("/");                    // separacao por /
 
         // converte para int e atribui
         mes = Integer.parseInt(array[0]);
