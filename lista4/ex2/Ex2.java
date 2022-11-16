@@ -1,5 +1,18 @@
 package ex2;
-//import java.util.Scanner;
+
+/* neste exercicio eu assumi que os valores dos ingressos sao
+ * ingresso normal = 20
+ * adicional vip = 5
+ * adicional camarote = 8
+ * 
+ * mas existem os construtores para colocar outros valores,
+ * eh so inicializar com
+ * ingressosNormais[i] = new Normal(novoValor);
+ * ou
+ * ingressosVip[i] = new Vip(novoValor1, novoValor2);
+ * 
+ * daria pra fazer pedindo o valor pro usuario no inicio
+ */
 
 public class Ex2
 { 

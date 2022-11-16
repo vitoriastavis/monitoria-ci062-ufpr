@@ -4,14 +4,15 @@ public class Fluorescente extends Lampada
     protected int comprimento;  // comprimento da lampada em centimetros
 
     // construtores
-    public Fluorescente(){}      
-    public Fluorescente(String estado, int comprimento)
+    public Fluorescente(){}   
+
+    public Fluorescente(int comprimento)
     {
-        super(estado);
+        super();       
         this.comprimento = comprimento;
     }
 
-    // getters e setters
+    // gette    public Led(){}rs e setters
     public int getComprimento()
     {
         return comprimento;

@@ -4,20 +4,22 @@ public class Camarote extends Vip
 {
     protected int valorCamarote;
 
-    public Camarote()
+    // construtores
+    public Camarote()                   // default = 8
     {
         this.valorCamarote = 8;
     }
-    public Camarote(int valorCamarote)
+    public Camarote(int valorCamarote)  // outros valores de adicional camarote
     {
         this.valorCamarote = valorCamarote;
     }
     public Camarote(int valorIngresso, int valorAdicional, int valorCamarote)
     {
         super(valorIngresso, valorAdicional);
-        this.valorCamarote= valorCamarote;
+        this.valorCamarote = valorCamarote;
     }
 
+    // get e set do valorCamarote
     public int getValorCamarote()
     {
         return valorCamarote;
