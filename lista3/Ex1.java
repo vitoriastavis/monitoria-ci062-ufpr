@@ -23,7 +23,7 @@ public class Ex1
         // le matricula
         System.out.print("digite a matricula (numero inteiro): ");
         func.matricula = input.nextInt();
-        input.nextLine();
+        input.nextLine();           // a input.nextInt() nao conta o enter dado pelo usuario depois do numero
 
         // le data de nascimento em string
         System.out.print("digite a data de nascimento no formato dd/mm/aaaa: ");           

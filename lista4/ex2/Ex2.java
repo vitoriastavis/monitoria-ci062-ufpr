@@ -16,8 +16,8 @@ package ex2;
 
 public class Ex2
 { 
-    /* cria um ingresso normal, um vip e um camarote
-       e imprimi seus valores                       */
+    /* cria vetores de 25 ingressos normais, 25 vips 
+       e 25 camarote e imprime seus valores                     */
     public static void main(String args[])
     {
         // declara variaveis   

@@ -5,6 +5,17 @@ public class FuncionarioUFPR
     int matricula;
     Data dataNascimento;
 
+    // construtores 
+    public FuncionarioUFPR(){}
+    public FuncionarioUFPR(String nome, String cargo, int matricula, Data dataNascimento)
+    {
+        this.nome = nome;
+        this.cargo = cargo;
+        this.matricula = matricula;
+        this.dataNascimento = dataNascimento;
+    }
+
+    // get e set nome
     public String getNome()
     {
         return nome;
@@ -14,6 +25,7 @@ public class FuncionarioUFPR
         this.nome = nome;
     }
 
+    // get e set cargo
     public String getCargo()
     {
         return cargo;
@@ -23,6 +35,7 @@ public class FuncionarioUFPR
         this.cargo = cargo;
     }
 
+    // get e set matricula
     public int getMatricula()
     {
         return matricula;
@@ -32,6 +45,7 @@ public class FuncionarioUFPR
         this.matricula = matricula;
     }
     
+    // get e set data de nascimento
     public Data getDataNascimento()
     {
         return dataNascimento;
