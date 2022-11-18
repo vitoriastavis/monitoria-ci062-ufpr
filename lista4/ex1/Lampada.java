@@ -1,4 +1,7 @@
 package ex1;
+/* pode ser classe abstrata
+ * mas ainda nao foi dada essa parte
+ */
 public class Lampada
 {
     protected String estado = "desligado";

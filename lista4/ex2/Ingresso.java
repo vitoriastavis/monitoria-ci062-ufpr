@@ -1,5 +1,7 @@
 package ex2;
-
+/* pode ser classe abstrata
+ * mas ainda nao foi dada essa parte
+ */
 public class Ingresso
 {
     protected int valorIngresso;
