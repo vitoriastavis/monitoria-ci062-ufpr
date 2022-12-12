@@ -15,8 +15,9 @@ public class Vip extends Ingresso
     }
     public Vip(int valorIngresso, int valorAdicional)       // outro valor de adicional e de ingresso normal
     {
-        super(valorIngresso);
-        this.valorAdicional = valorAdicional;
+        //super(valorIngresso);
+        //this.valorAdicional = valorAdicional;
+        this(valorAdicional);
     }
 
     // get e set do valorAdicional

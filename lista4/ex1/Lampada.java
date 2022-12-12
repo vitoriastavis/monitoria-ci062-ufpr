@@ -4,12 +4,14 @@ package ex1;
  */
 public class Lampada
 {
-    protected String estado = "desligado";
+    protected String estado;
 
     // construtores   
-    public Lampada() {}
-    // inicializa a lampada com estado default desligado    
-
+    public Lampada()
+    {
+        this.estado = "desligado";
+    }
+   
     // getters e setters
     public String getEstado()
     {
