@@ -40,6 +40,12 @@ public class Main
                 System.out.printf("Novo \t R$ %,.2f \n", listaImoveis[i].preco);             
         }
 
+        System.out.println("Sobrecarga de construtor: polimorfismo ad hoc");        
+        System.out.println("Usar o metodo calcularValorImovel: polimorfismo universal de inclusao");        
+
+
+
+
         input.close();
     }    
 }
