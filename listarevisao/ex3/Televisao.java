@@ -1,14 +1,11 @@
-package ex1;
 
-public class ProdutoEletronico implements Loja
-{  
-    int codigo;
-    String nomeFabricante;
+package ex3;
 
-    public ProdutoEletronico(int codigo, String nomeFabricante)
+public class Televisao extends ProdutoEletronico
+{    
+    public Televisao(int codigo, String fabricante)
     {
-        this.codigo = codigo;
-        this.nomeFabricante = nomeFabricante;
+        super(codigo, fabricante);
     }
 
     public void vender()

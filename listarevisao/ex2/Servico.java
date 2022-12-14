@@ -1,4 +1,4 @@
-package ex1;
+package ex2;
 
 public class Servico implements Loja
 {
@@ -17,6 +17,7 @@ public class Servico implements Loja
         System.out.printf("Vendendo o servico %s que dura %d minutos. \n", this.nome, this.duracao);
     }
 
+    
     public void garantia()
     {
         System.out.printf("\tAcionando a garantia para o serviço %s. \n", this.nome);

@@ -1,19 +1,17 @@
-package ex1;
+package ex2;
 import java.util.*;
 
-public class Ex1
+public class Ex2
 {
     public static void main(String args[])
     {  
         Servico tecnicoCelular = new Servico("Tecnico Celular", 90);
-        ProdutoEletronico tv = new ProdutoEletronico(25625, "lg");
-        Servico tecnicoTV = new Servico("Tecnico TV", 120);
+        ProdutoEletronico tv = new Televisao(25625, "lg");
 
         ArrayList<Loja> vendasLoja = new ArrayList<Loja>();        
 
         vendasLoja.add(tecnicoCelular);
         vendasLoja.add(tv);
-        vendasLoja.add(tecnicoTV);
 
         Iterator<Loja> i = vendasLoja.iterator();
         while(i.hasNext())

@@ -1,4 +1,4 @@
-package ex1;
+package ex2;
 
 public interface Loja
 {
