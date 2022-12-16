@@ -1,4 +1,4 @@
-package ex1;
+
 public class Fluorescente extends Lampada
 {    
     protected int comprimento;  // comprimento da lampada em centimetros

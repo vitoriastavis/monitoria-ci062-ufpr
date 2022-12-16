@@ -1,7 +1,7 @@
 public class ImovelNovo extends Imovel
 { 
     // construtores
-    public ImovelNovo (){}
+    public ImovelNovo(){}
     public ImovelNovo(Endereco endereco)
     {
         this.endereco = endereco;       

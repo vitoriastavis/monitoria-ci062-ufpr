@@ -1,4 +1,3 @@
-package ex1;
 /* pode ser classe abstrata
  * mas ainda nao foi dada essa parte
  */
