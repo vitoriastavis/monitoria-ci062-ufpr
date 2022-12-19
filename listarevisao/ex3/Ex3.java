@@ -1,4 +1,3 @@
-package ex3;
 import java.util.*;
 
 public class Ex3
@@ -9,7 +8,7 @@ public class Ex3
         Televisao tv = new Televisao(25625, "lg");
         Celular nokia = new Celular(1697, "nokia");
 
-        ArrayList<Loja> vendasLoja = new ArrayList<Loja>();        
+        LinkedList<Loja> vendasLoja = new LinkedList<Loja>();        
 
         vendasLoja.add(tecnicoCelular);
         vendasLoja.add(tv);

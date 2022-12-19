@@ -1,5 +1,3 @@
-package ex3;
-
 public abstract class ProdutoEletronico implements Loja
 {  
     protected int codigo;

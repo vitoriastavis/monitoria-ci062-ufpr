@@ -1,4 +1,3 @@
-package ex3;
 
 public class Servico implements Loja
 {

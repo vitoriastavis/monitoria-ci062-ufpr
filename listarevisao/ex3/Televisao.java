@@ -1,6 +1,4 @@
 
-package ex3;
-
 public class Televisao extends ProdutoEletronico
 {    
     public Televisao(int codigo, String fabricante)
