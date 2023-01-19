@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "listarevisao/ex3",
         "lista9",
         "lista4/ex1",
         "lista4",
-        "listarevisao/ex3"
+        "lista10"
     ]
 }
